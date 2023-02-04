@@ -1,0 +1,171 @@
+body{
+  overflow-x: hidden;
+  font-family: "Amatic SC", sans-serif
+}
+h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+
+.home_page{
+margin-left: 0px;
+align-items: center;
+justify-content: center;
+
+}
+.topnavinput[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  width: 200px;
+  font-size: 20px;
+}
+.page-name{
+  text-align: right;
+    font-size: 40px;
+    color: white;
+    margin-right: -26px;
+    margin-top: 78px
+
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: black;
+    font-size: 17px;
+    font-weight: bold;
+    
+
+  
+  margin-top: 2px;
+}
+.fa {
+  padding: 17px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  display: inline-flex;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.side_heading{
+  display: inline-flex;
+    margin-left: 300px;
+    margin-top: 209px;
+    margin-bottom: -69px;
+    margin-right: -34px;
+}
+.footer_elements{
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-self: flex-end;
+  margin-left: 1000px;
+  margin-top: -80px;
+  display: inline-flex;
+}
+.login-form button {
+  margin: -3px auto 11px;
+    display: table;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    margin-right: -1px;
+    cursor: pointer;
+    font-family: "Amatic SC", sans-serif;
+
+  }
+.login-form button:hover{
+  opacity: 0.8;
+}
+.social-btn button.twitter-btn, .social-btn button.facebook-btn {
+  width: 67%;
+    font-size: 16px;
+    margin-left: 20px;
+    display: inline-flex;
+    height: 41px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+.social-btn button.twitter-btn{
+  background-color: #26abfd;
+}
+.social-btn button.facebook-btn{
+  background-color: #3f68be;
+}
+.social-btn {
+    padding-top: 30px;
+    margin-top: -10px;
+}
+.social-btn button i {
+  margin-right: 12px;
+    font-size: 22px;
+    margin-top: -9px;
+    padding-left: 19px;
+    padding-top: inherit;
+    width: 55px;
+    height: 39px;
+    margin-left: -12px;
+}
+.login-form {
+    font-family: arial;
+    color: #333;
+} 
+.login-form form {
+  width: 400px;
+    height: 331px;
+    padding: 20px 30px 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 420px;
+    margin-top: -24px;
+    margin-bottom: 117px;
+}
+
+.login-form input {
+  width: 100%;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    height: 33px;
+    margin: 0px 0px 20px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-size: 21px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold
+}
+
+.login-form .forget-psw {
+  float: left;
+    margin-top: -46px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.login-form .forget-psw a {
+    color: #080808;
+    text-decoration: none;}

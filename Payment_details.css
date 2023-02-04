@@ -1,0 +1,224 @@
+.headerG {
+    font-family: "Amatic SC", sans-serif;
+}
+
+h1 {
+    font-family: "Amatic SC", sans-serif;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: -94px;
+    margin-left: 29px;
+    margin-top: 8px;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    padding-left: 20px;
+}
+
+.text_font {
+    font-size: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    margin-bottom: -15px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: black;
+font-size: 17px;
+font-weight: bold;
+font-family:"Amatic SC", sans-serif ;
+
+
+}
+
+.Payment_Detail {
+    margin-top: 30px;
+padding-top: 10px;
+padding-left: 1px;
+}
+
+.topnavinput[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin-right: 100px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: rgb(88, 88, 88);
+    color: rgb(3, 3, 3);
+    transform: rotateY(180deg);
+    
+}
+
+.row1-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bolder;
+    align-content: center;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.form_fields {
+    width: 40px;
+    display: inline-flex;
+}
+
+.border_div {
+    border: 2px solid rgb(173, 172, 172);
+    margin-left: 83px;
+    margin-top: -6px;
+    margin-bottom: 13px;
+    margin-right: 83px;
+    border-radius: 25px;
+    padding-left: 81px;
+    padding-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+#fname {
+    width: 400px;
+}
+
+#lname {
+    width: 400px;
+}
+
+#CNIC {
+    width: 398px;
+}
+
+#contact_no {
+    width: 398px;
+}
+
+#Email_Address {
+    width: 367px;
+}
+
+#Payment_method {
+    width: 388px;
+}
+
+#booking_dates {
+    width: 92%;
+
+}
+.button_format{
+background-color: #5a5555;
+border: none;
+color: white;
+padding: 5px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+width: 149px;
+font-family: 'Amatic SC';
+font-weight: bold;
+margin-left: 100px;}
+
+.button_format:hover{
+background-color: rgb(7, 7, 7);
+color: white;
+
+}
+
+.button_style{
+text-decoration: none;
+}
